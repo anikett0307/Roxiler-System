@@ -1,0 +1,75 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "System Administrator Account",
+      "email": "admin@system.com",
+      "password": "Admin@123",
+      "address": "742 Evergreen Terrace, Springfield, OR",
+      "role": "SYSTEM_ADMIN"
+    },
+    {
+      "id": 2,
+      "name": "Aniket Hadakar",
+      "email": "aniket.hadakar@gmail.com",
+      "password": "Password@123",
+      "address": "123 Tech Park Road, Bengaluru, Karnataka",
+      "role": "STORE_OWNER"
+    },
+    {
+      "id": 3,
+      "name": "Victoria Harrington",
+      "email": "victoria@gmail.com",
+      "password": "Password@123",
+      "address": "456 MG Road, Bengaluru, Karnataka",
+      "role": "STORE_OWNER"
+    },
+    {
+      "id": 4,
+      "name": "Aniket User",
+      "email": "aniket123456@gmail.com",
+      "password": "Password@123",
+      "address": "303 Koramangala 5th Block, Bengaluru, Karnataka",
+      "role": "NORMAL_USER"
+    },
+    {
+      "id": 5,
+      "name": "Samantha Johnson",
+      "email": "samantha@gmail.com",
+      "password": "Password@123",
+      "address": "404 Whitefield Main Road, Bengaluru, Karnataka",
+      "role": "NORMAL_USER"
+    },
+    {
+      "id": 6,
+      "name": "Benjamin Miller",
+      "email": "benjamin@gmail.com",
+      "password": "Password@123",
+      "address": "505 HSR Layout Sector 1, Bengaluru, Karnataka",
+      "role": "NORMAL_USER"
+    }
+  ],
+  "stores": [
+    {
+      "id": 1,
+      "name": "Apex Electronics & Gadgets",
+      "email": "contact@apexelectronics.com",
+      "address": "101 Commercial Street, Bengaluru, Karnataka",
+      "owner_id": 2
+    },
+    {
+      "id": 2,
+      "name": "Urban Harvest Grocery Mart",
+      "email": "support@urbanharvest.com",
+      "address": "202 Indiranagar 100ft Road, Bengaluru, Karnataka",
+      "owner_id": 3
+    }
+  ],
+  "ratings": [
+    { "user_id": 4, "store_id": 1, "rating": 5 },
+    { "user_id": 5, "store_id": 1, "rating": 4 },
+    { "user_id": 6, "store_id": 1, "rating": 5 },
+    { "user_id": 4, "store_id": 2, "rating": 4 },
+    { "user_id": 5, "store_id": 2, "rating": 3 }
+  ]
+}

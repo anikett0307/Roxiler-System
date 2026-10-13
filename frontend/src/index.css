@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --primary-gradient: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+  --accent-gradient: linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%);
+  --success-gradient: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  --warning-gradient: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  --dark-bg: #0f172a;
+  --card-bg: rgba(255, 255, 255, 0.95);
+  --text-main: #1e293b;
+  --text-muted: #64748b;
+  --border-radius-lg: 16px;
+  --border-radius-sm: 10px;
+  --box-shadow-soft: 0 10px 30px -10px rgba(79, 70, 229, 0.12);
+  --box-shadow-hover: 0 20px 35px -10px rgba(79, 70, 229, 0.22);
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: #f8fafc;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.05) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(236, 72, 153, 0.05) 0px, transparent 50%);
+  color: var(--text-main);
+  min-height: 100vh;
+}
+
+/* Glassmorphism Navigation */
+.navbar-custom {
+  background: rgba(15, 23, 42, 0.92) !important;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.85rem 0;
+}
+
+.brand-gradient {
+  background: linear-gradient(135deg, #818cf8 0%, #c084fc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+/* Hero & Metric Cards */
+.metric-card {
+  border: none;
+  border-radius: var(--border-radius-lg);
+  background: white;
+  box-shadow: var(--box-shadow-soft);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  position: relative;
+}
+
+.metric-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--box-shadow-hover);
+}
+
+.metric-icon-wrapper {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--border-radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+/* Modern Card Containers */
+.custom-card {
+  border: none;
+  border-radius: var(--border-radius-lg);
+  background: white;
+  box-shadow: var(--box-shadow-soft);
+}
+
+/* Gradient Buttons */
+.btn-gradient-primary {
+  background: var(--primary-gradient);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius-sm);
+  font-weight: 600;
+  padding: 0.65rem 1.4rem;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.25);
+}
+
+.btn-gradient-primary:hover {
+  color: white;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(79, 70, 229, 0.35);
+}
+
+/* Styled Form Inputs */
+.form-control-custom, .form-select-custom {
+  border-radius: var(--border-radius-sm);
+  border: 1.5px solid #e2e8f0;
+  padding: 0.65rem 1rem;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+}
+
+.form-control-custom:focus, .form-select-custom:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.15);
+}
+
+/* Table Styling */
+.custom-table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.custom-table thead th {
+  background: #f1f5f9;
+  color: var(--text-muted);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  padding: 1rem;
+  border: none;
+}
+
+.custom-table tbody tr {
+  transition: background-color 0.15s ease;
+}
+
+.custom-table tbody tr:hover {
+  background-color: rgba(99, 102, 241, 0.02);
+}
+
+.custom-table tbody td {
+  padding: 1rem;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+/* Mobile Responsiveness Rules */
+@media (max-width: 768px) {
+  .metric-card {
+    margin-bottom: 1rem;
+  }
+  
+  .custom-table-container {
+    border-radius: var(--border-radius-sm);
+    overflow-x: auto;
+  }
+
+  .display-title {
+    font-size: 1.5rem !important;
+  }
+}
