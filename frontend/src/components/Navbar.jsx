@@ -97,3 +97,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// Added responsive navbar with role-based navigation, user profile, and logout functionality.

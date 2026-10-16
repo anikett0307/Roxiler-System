@@ -89,3 +89,4 @@ exports.getOwnerDashboard = async (req, res) => {
     res.status(500).json({ message: 'Failed to retrieve store owner analytics.' });
   }
 };
+// Implement store listing with search and sorting, community ratings, user-submitted ratings, and store owner analytics APIs.

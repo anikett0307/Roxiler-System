@@ -48,3 +48,4 @@ const StarRating = ({ initialRating = 0, onRate, disabled = false }) => {
 };
 
 export default StarRating;
+// Add interactive 5-star rating with hover effects, click handling, and disabled state support.

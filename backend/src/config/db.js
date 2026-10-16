@@ -12,3 +12,4 @@ const pool = mysql.createPool({
 });
 
 module.exports = pool;
+// Configure a MySQL connection pool using environment variables and mysql2/promise for efficient database access.

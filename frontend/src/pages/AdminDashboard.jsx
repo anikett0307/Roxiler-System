@@ -315,3 +315,4 @@ const AdminDashboard = () => {
 };
 
 export default AdminDashboard;
+// Implement admin dashboard with analytics, user and store management, debounced search, role filters, and creation forms.

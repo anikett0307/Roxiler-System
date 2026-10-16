@@ -153,3 +153,4 @@ const StoreOwnerDashboard = () => {
 };
 
 export default StoreOwnerDashboard;
+// Implement store owner dashboard with average ratings, star distribution analytics, and customer feedback history.

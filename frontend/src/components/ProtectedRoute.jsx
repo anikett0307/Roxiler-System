@@ -32,3 +32,5 @@ const ProtectedRoute = ({ children, allowedRoles }) => {
 };
 
 export default ProtectedRoute;
+
+// Implement protected routes with authentication checks, loading state, and role-based access control.

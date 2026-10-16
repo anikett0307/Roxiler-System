@@ -92,3 +92,4 @@ exports.updatePassword = async (req, res) => {
     res.status(500).json({ message: 'Server error updating password.' });
   }
 };
+// Implement user registration, JWT-based login authentication, secure password hashing, and password update functionality.
