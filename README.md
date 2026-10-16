@@ -1,6 +1,6 @@
 # StorePulse
 
-StorePulse is a full-stack web application designed for discovering, rating, and managing local stores. It provides role-based access for System Administrators, Store Owners, and Normal Users.
+Storepulse is a full-stack web application designed for discovering, rating, and managing local stores. It provides role-based access for System Administrators, Store Owners, and Normal Users.
 
 ---
 
